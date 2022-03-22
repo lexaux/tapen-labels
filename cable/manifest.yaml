@@ -11,6 +11,6 @@ params:
 
 layout:
   template: |
-    {{default(param.default)    default(param.default) }}
+    {{param.default}}----{{param.default}}
   css: |
     .label {font-size: 0.9em;}
