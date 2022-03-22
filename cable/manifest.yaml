@@ -1,0 +1,16 @@
+template:
+  name: Cable Tag
+  description: Cable Tag
+  author: Alex Cherednichenko<a@jointbox.io>
+  license: proprietary
+
+params:
+  default:
+    required: false
+    validator: string
+
+layout:
+  template: |
+    {{default(param.default)    default(param.default) }}
+  css: |
+    .label {font-size: 0.9em;}
