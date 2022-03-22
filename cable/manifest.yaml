@@ -11,6 +11,7 @@ params:
 
 layout:
   template: |
-    {{param.default}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{param.default}}
+    <span class="left-side">{{param.default}}</span>{{param.default}}
   css: |
     .label {font-size: 0.9em;}
+    .left-side {margin-right: 8em;}
